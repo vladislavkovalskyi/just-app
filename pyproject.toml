@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "just-app"
+version = "0.1.0"
+description = ""
+authors = ["vladislavkovalskyi <v.darknesssb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flet = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
